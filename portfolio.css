@@ -1,0 +1,1015 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#toggle {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    display: none;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.6;
+
+}
+
+#toggle:hover {
+    opacity: 0.8;
+}
+
+#togglee {
+    position: relative;
+    width: 200px;
+    height: 0px;
+    background: transparent;
+}
+
+#togglee {
+    margin-left: 10px;
+    margin-top: -15px;
+    display: none;
+}
+
+#togglee ul {
+    line-height: 80px;
+    margin-left: 25px;
+}
+
+#togglee ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#togglee ul li {
+    list-style: none;
+}
+
+ul li a:hover {
+    color: #696969;
+}
+
+#radovi {
+    width: 40px;
+    height: 480px;
+    position: relative;
+    background: transparent;
+    padding-top: 200px;
+    margin-left: 25px;
+    text-align: right;
+    line-height: 40px;
+}
+
+#radovi p {
+    font-size: 22px;
+    color: black;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+#radovi a {
+    text-decoration: none;
+}
+
+#radovi:hover p {
+    color: white;
+}
+
+#slovo {
+    padding-top: 150px;
+}
+
+.slajd {
+    margin-left: 220px;
+    width: 30%;
+    margin-top: -700px;
+    background: transparent;
+    position: absolute;
+    height: 900px;
+}
+
+.slajd p {
+    font-size: 32px;
+    color: white;
+}
+
+#prvi {
+    padding-top: 220px;
+}
+
+#drugi {
+    margin-left: 70px;
+}
+
+#treci {
+    margin-left: 120px;
+}
+
+#cetvrti {
+    margin-left: 100px;
+}
+
+#peti {
+    margin-left: 200px;
+}
+
+#sesti {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.pod {
+    margin-left: 1500px;
+    margin-top: -550px;
+    position: relative;
+    width: 100px;
+    height: 280px;
+    background: transparent;
+}
+
+.pod p {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.pod a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.pod:hover p {
+    color: white;
+}
+
+.ispod {
+    position: relative;
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    margin-top: 350px;
+    margin-left: 1450px;
+}
+
+.ispod p {
+    font-size: 22px;
+    color: black;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+.ispod a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.ispod:hover p {
+    color: white;
+}
+
+.iznad {
+    position: relative;
+    width: 170px;
+    height: 45px;
+    background: transparent;
+    margin-top: -750px;
+    margin-left: 500px;
+}
+
+.iznad p {
+    font-size: 22px;
+    color: black;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+.iznad a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.iznad:hover p {
+    color: white;
+}
+
+#fixed {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.bio {
+    background: #708090;
+    position: relative;
+    width: 80%;
+    height: 450px;
+    margin-top: 845px;
+    opacity: 0.8;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+.bio h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.text {
+    background: transparent;
+    width: 85%;
+    height: 200px;
+    margin-left: 150px;
+}
+
+.text p {
+    padding-top: 5px;
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.vestine {
+    position: relative;
+    background: #708090;
+    opacity: 0.8;
+    font-family: 'Gloria Hallelujah', cursive;
+    width: 80%;
+    height: 550px;
+    margin-left: 180px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#zaglavlje {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5px;
+    background: transparent;
+    width: 100%;
+}
+
+.prva {
+    width: 10%;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 255px;
+}
+
+.prva p {
+    font-size: 20px;
+}
+
+.druga {
+    width: 10%;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 680px;
+    margin-top: -70px;
+}
+
+.druga p {
+    font-size: 20px;
+}
+
+.treca {
+    width: 15%;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 1055px;
+    margin-top: -68px;
+}
+
+.treca p {
+    font-size: 20px;
+    margin-left: -8%;
+}
+
+
+
+#slike {
+    margin-left: 210px;
+}
+
+#slike img {
+    width: 250px;
+    height: 250px;
+}
+
+#slikedva {
+    margin-left: 630px;
+    margin-top: -250px;
+}
+
+#slikedva img {
+    width: 250px;
+    height: 250px;
+}
+
+#sliketri {
+    margin-left: 1040px;
+    margin-top: -247px;
+}
+
+#sliketri img {
+    width: 250px;
+    height: 250px;
+}
+
+#grupa a:hover img {
+    opacity: 0.5;
+}
+
+.vestinedva {
+    position: relative;
+    background: #708090;
+    opacity: 0.8;
+    font-family: 'Gloria Hallelujah', cursive;
+    width: 80%;
+    height: 570px;
+    margin-left: 180px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#drugozaglavlje {
+    width: 100%;
+    height: 120px;
+    background: transparent;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 40px;
+}
+
+#work {
+    margin-top: 100px;
+}
+
+.slicica {
+    width: 250px;
+    height: 250px;
+    margin-left: 190px;
+}
+
+.slicicadva {
+    width: 250px;
+    height: 250px;
+    margin-left: 213px;
+}
+
+.slicicatri {
+    width: 250px;
+    height: 250px;
+    margin-left: 173px;
+}
+
+.pomeranja {
+    line-height: 10px;
+    text-align: center;
+}
+
+.pomeranja h4 {
+    color: white;
+}
+
+.pomeranja a {
+    text-decoration: none;
+}
+
+.move {
+    width: 250px;
+    height: 50px;
+    margin-left: 190px;
+    background: darkgrey;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.movedva {
+    width: 250px;
+    height: 50px;
+    margin-left: 658px;
+    background: darkgrey;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.movetri {
+    width: 250px;
+    height: 50px;
+    margin-left: 1086px;
+    background: darkgrey;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.kopija {
+    width: 250px;
+    height: 250px;
+    margin-left: 190px;
+    background: grey;
+    opacity: 0.8;
+    margin-top: -259px;
+    display: none;
+    position: absolute;
+}
+
+.kopijadva {
+    width: 250px;
+    height: 250px;
+    margin-left: 658px;
+    background: grey;
+    opacity: 0.8;
+    position: absolute;
+    margin-top: -260px;
+    display: none;
+}
+
+.kopijatri {
+    width: 250px;
+    height: 250px;
+    margin-left: 1086px;
+    background: grey;
+    opacity: 0.8;
+    margin-top: -260px;
+    display: none;
+    position: absolute;
+}
+
+.kopije p {
+    color: black;
+    line-height: 230px;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#kontakt {
+    position: relative;
+    background: #708090;
+    opacity: 0.8;
+    width: 80%;
+    height: 650px;
+    margin-left: 180px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+#kontakt img {
+    width: 100%;
+    height: 400px;
+}
+
+#kontakt p {
+    margin-top: px;
+    color: white;
+    font-size: 30px;
+}
+
+#kontakt #adres {
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+form {
+    background: transparent;
+    width: 54%;
+    height: 350px;
+    margin-left: 24%;
+}
+
+input {
+    margin-top: 18px;
+    width: 95%;
+    height: 30px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 95%;
+    height: 200px;
+    background: white;
+}
+
+#btn {
+    margin-left: 89%;
+    margin-top: 15px;
+}
+
+.back {
+    position: relative;
+    width: 100%;
+    height: 0px;
+}
+
+.back img {
+    width: 40px;
+    height: 40px;
+    margin-left: 95%;
+    margin-top: 40px;
+}
+
+.back a img {
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.back a img:hover {
+    opacity: 0.8;
+}
+
+.copy {
+    width: 80%;
+    height: 50px;
+    background: #708090;
+    opacity: 0.8;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+#adresar {
+    margin-left: -80px;
+}
+
+#adresar a {
+    margin-left: 25px;
+}
+
+#adresar a:hover img {
+    opacity: 0.3;
+}
+
+
+@media(max-width: 1690px) {
+    .slicica {
+        margin-left: 145px;
+    }
+
+    .move {
+        margin-left: 145px;
+    }
+
+    .movedva {
+        margin-left: 613px;
+    }
+
+    .movetri {
+        margin-left: 1041px;
+    }
+
+    .kopija {
+        margin-left: 145px;
+    }
+
+    .kopijadva {
+        margin-left: 613px;
+    }
+
+    .kopijatri {
+        margin-left: 1041px;
+    }
+}
+
+
+@media (max-width: 1640px) {
+    #grupa {
+        margin-left: -150px;
+    }
+
+    #grupaa {
+        margin-left: -150px;
+    }
+
+    #work {
+        margin-left: -150px;
+    }
+
+    .back img {
+        margin-left: 1500px;
+    }
+
+    .slicica {
+        margin-left: 175px;
+    }
+
+    .move {
+        margin-left: 175px;
+    }
+
+    .movedva {
+        margin-left: 643px;
+    }
+
+    .movetri {
+        margin-left: 1071px;
+    }
+
+    .kopija {
+        margin-left: 175px;
+    }
+
+    .kopijadva {
+        margin-left: 643px;
+    }
+
+    .kopijatri {
+        margin-left: 1071px;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .pod {
+        margin-left: 1200px;
+    }
+
+    .ispod {
+        margin-left: 1200px;
+    }
+
+    #grupaa {
+        margin-left: -80px;
+    }
+
+    #grupa {
+        margin-left: -80px;
+    }
+
+    .druga {
+        margin-left: 600px;
+    }
+
+    #slikedva {
+        margin-left: 550px;
+    }
+
+    #sliketri {
+        margin-left: 880px;
+    }
+
+    .treca {
+        margin-left: 900px;
+    }
+
+    .slicicadva {
+        margin-left: 50px;
+    }
+
+    .movedva {
+        margin-left: 480px;
+    }
+
+    .kopijadva {
+        margin-left: 480px;
+    }
+
+    .slicicatri {
+        margin-left: 50px;
+    }
+
+    .movetri {
+        margin-left: 785px;
+    }
+
+    .kopijatri {
+        margin-left: 785px;
+    }
+
+    #work {
+        margin-left: -10px;
+    }
+}
+
+
+@media (max-width: 1570px) {
+    .back img {
+        margin-left: 1350px;
+    }
+
+    .text {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .iznad {
+        margin-left: 400px;
+    }
+
+    .pod {
+        margin-left: 1000px;
+    }
+
+    .ispod {
+        margin-left: 1000px;
+    }
+
+    #grupa {
+        margin-left: -150px;
+    }
+
+    #grupaa {
+        margin-left: -150px;
+    }
+
+    #work {
+        margin-left: -100px;
+    }
+
+    .back img {
+        margin-left: 1250px;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    #grupa {
+        margin-left: -190px;
+    }
+
+    #grupaa {
+        margin-left: -190px;
+    }
+
+    #work {
+        margin-left: -150px;
+    }
+
+    .back img {
+        margin-left: 1100px;
+    }
+
+    .bio {
+        height: 500px;
+    }
+
+    #sesti {
+
+        margin-left: 10px;
+    }
+
+    #peti {
+        margin-left: 150px;
+    }
+
+}
+
+
+@media (max-width: 1220px) {
+    .bio {
+        margin-left: 120px;
+    }
+
+    .vestine {
+        margin-left: 120px;
+    }
+
+    .vestinedva {
+        margin-left: 120px;
+    }
+
+    #kontakt {
+        margin-left: 120px;
+    }
+
+    #grupaa {
+        margin-left: -180px;
+    }
+
+    #grupa {
+        margin-left: -205px;
+    }
+
+    .copy {
+        margin-left: 120px;
+    }
+
+    .treca p {
+        margin-left: -25%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .bio {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    .vestine {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    .vestinedva {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    #kontakt {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    .copy {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    .adresa {
+        padding-left: 5px;
+    }
+
+    .adresa a img {
+        width: 30px;
+        height: 30px;
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+
+    .text {
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 1170px) {
+    .iznad {
+        margin-left: 300px;
+    }
+
+    .pod {
+        margin-left: 800px;
+    }
+
+    .ispod {
+        margin-left: 820px;
+    }
+
+    .bio {
+        margin-left: 60px;
+        height: 450px;
+    }
+
+    .back img {
+        margin-left: 730px;
+    }
+
+    #sesti {
+        margin-left: -20px;
+    }
+}
+
+
+@media (max-width: 1060px) {
+
+    body {
+        background-image: url("slike/_84485-4.jpg");
+        background-position: 100%
+    }
+
+    #fixed {
+        display: none;
+    }
+
+    .slajd {
+        margin-top: -620px;
+    }
+
+    .bio {
+        height: 1850px;
+        margin-top: 1045;
+    }
+
+    .text p {
+        font-size: 46px;
+    }
+
+    .druga {
+        margin-left: 550px;
+    }
+
+    #slikedva {
+        margin-left: 505px;
+    }
+
+    .treca {
+        margin-left: 825px;
+    }
+
+    #sliketri {
+        margin-left: 810px;
+    }
+
+    .slicicadva {
+        margin-left: 30px;
+    }
+
+    .slicicatri {
+        margin-left: 30px;
+    }
+
+    .movedva {
+        margin-left: 460px;
+    }
+
+    .kopijadva {
+        margin-left: 460px;
+    }
+
+    .movetri {
+        margin-left: 745px;
+    }
+
+    .kopijatri {
+        margin-left: 745px;
+    }
+
+    .adresa {
+        padding-left: 5px;
+    }
+
+    .adresa a img {
+        width: 30px;
+        height: 30px;
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+
+    .text a {
+        font-size: 36px;
+    }
+
+    .text p {
+        margin-bottom: 350px;
+    }
+
+    #radovi a p {
+        color: white;
+    }
+
+    .ispod p {
+        color: white;
+    }
+
+    .pod p {
+        color: white;
+    }
+
+    .iznad p {
+        color: white;
+    }
+
+    .kopije {
+        display: none;
+    }
+
+    #cetvrti {
+        margin-left: 60px;
+    }
+
+    #peti {
+        margin-left: 120px;
+    }
+
+    #sesti {
+        margin-left: -30px;
+    }
+
+    .bio {
+        height: 1650px;
+    }
+}
+
+@media (max-width: 1010px) {
+    #sesti {
+        margin-left: -50px;
+    }
+
+}
